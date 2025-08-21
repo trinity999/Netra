@@ -1,0 +1,11 @@
+Program,Total Subdomains,Critical Risk,High Risk,Top Category
+zendesk,200,165,5,Administrative / Management Interfaces
+alibaba,200,188,3,Administrative / Management Interfaces
+at&t,200,199,1,Administrative / Management Interfaces
+epic_games,200,189,3,Administrative / Management Interfaces
+tts_bug_bounty,200,188,6,Administrative / Management Interfaces
+amazon,200,156,19,Administrative / Management Interfaces
+slack,200,199,1,Administrative / Management Interfaces
+ubiquiti,200,171,2,Administrative / Management Interfaces
+spotify,200,194,3,Administrative / Management Interfaces
+goodrx,200,191,0,Administrative / Management Interfaces

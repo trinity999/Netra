@@ -1,0 +1,940 @@
+{
+  "metadata": {
+    "generated_at": 1755815474.8992426,
+    "analysis_tool": "NETRA Mass H1 Analyzer",
+    "version": "2.0.0",
+    "total_programs": 10
+  },
+  "executive_summary": {
+    "summary": {
+      "total_programs": 10,
+      "total_subdomains_analyzed": 2000,
+      "critical_risk_targets": 1840,
+      "high_risk_targets": 43,
+      "risk_percentage": 94.15
+    },
+    "top_categories_global": [
+      [
+        "Administrative / Management Interfaces",
+        1729
+      ],
+      [
+        "Database / Data Services",
+        70
+      ],
+      [
+        "Mobile / Partner / Integration",
+        43
+      ],
+      [
+        "Staging / Development / Testing",
+        43
+      ],
+      [
+        "Authentication / Identity",
+        41
+      ],
+      [
+        "Internal Tools / Infrastructure",
+        18
+      ],
+      [
+        "CDN / Storage / Assets",
+        18
+      ],
+      [
+        "Marketing / Content / CMS",
+        16
+      ],
+      [
+        "APIs",
+        15
+      ],
+      [
+        "Payment / Transactional",
+        5
+      ]
+    ],
+    "riskiest_programs": [
+      [
+        "at&t",
+        200,
+        200
+      ],
+      [
+        "slack",
+        200,
+        200
+      ],
+      [
+        "spotify",
+        197,
+        200
+      ],
+      [
+        "tts_bug_bounty",
+        194,
+        200
+      ],
+      [
+        "epic_games",
+        192,
+        200
+      ],
+      [
+        "alibaba",
+        191,
+        200
+      ],
+      [
+        "goodrx",
+        191,
+        200
+      ],
+      [
+        "amazon",
+        175,
+        200
+      ],
+      [
+        "ubiquiti",
+        173,
+        200
+      ],
+      [
+        "zendesk",
+        170,
+        200
+      ]
+    ],
+    "intelligence_patterns": {
+      "common_admin_patterns": [
+        [
+          "slack",
+          198
+        ],
+        [
+          "at&t",
+          194
+        ],
+        [
+          "spotify",
+          194
+        ],
+        [
+          "epic_games",
+          185
+        ],
+        [
+          "goodrx",
+          180
+        ],
+        [
+          "alibaba",
+          179
+        ],
+        [
+          "zendesk",
+          165
+        ],
+        [
+          "tts_bug_bounty",
+          157
+        ],
+        [
+          "amazon",
+          155
+        ],
+        [
+          "ubiquiti",
+          122
+        ]
+      ],
+      "dev_staging_prevalence": 9,
+      "api_endpoint_trends": [],
+      "security_service_usage": 0
+    }
+  },
+  "program_details": {
+    "zendesk": {
+      "program_name": "zendesk",
+      "total_subdomains": 200,
+      "analysis_timestamp": 1755815415.8944826,
+      "stats": {
+        "total_processed": 200,
+        "confidence_distribution": {
+          "high": 191,
+          "medium": 0,
+          "low": 3,
+          "very_low": 6
+        },
+        "uncertainty_distribution": {
+          "low": 191,
+          "medium": 0,
+          "high": 3,
+          "very_high": 6
+        },
+        "multi_category_count": 197,
+        "manual_review_needed": 6,
+        "category_distribution": {
+          "Administrative / Management Interfaces": 165,
+          "Mobile / Partner / Integration": 9,
+          "APIs": 14,
+          "Payment / Transactional": 2,
+          "Internal Tools / Infrastructure": 4,
+          "Marketing / Content / CMS": 1,
+          "Staging / Development / Testing": 5
+        },
+        "risk_distribution": {
+          "CRITICAL": 165,
+          "HIGH": 5,
+          "MEDIUM": 29,
+          "LOW": 1,
+          "VARIES": 0
+        },
+        "prediction_sources": {
+          "knowledge_base": 191,
+          "ml_model": 9,
+          "heuristic": 0
+        }
+      },
+      "top_categories": [
+        [
+          "Administrative / Management Interfaces",
+          165
+        ],
+        [
+          "APIs",
+          14
+        ],
+        [
+          "Mobile / Partner / Integration",
+          9
+        ],
+        [
+          "Staging / Development / Testing",
+          5
+        ],
+        [
+          "Internal Tools / Infrastructure",
+          4
+        ]
+      ],
+      "high_risk_count": 170,
+      "critical_subdomains": [
+        "EnhancedClassificationResult(subdomain='_dmarc.bestshirt4you.zendesk.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_dmarc.hopebaytech.zendesk.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_mta-sts.bestshirt4you.zendesk.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_mta-sts.hopebaytech.zendesk.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.zendesk.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.zopim.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.api.smooch.io', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'cpanel3api.company.org'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.config.eu-1.smooch.io', primary_category='Administrative / Management Interfaces', primary_confidence=0.85, alternative_categories=[('Administrative / Management Interfaces', 0.85), ('Administrative / Management Interfaces', 0.85)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'app.config8.startup.mil'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.850), Administrative / Management Interfaces (0.850)')",
+        "EnhancedClassificationResult(subdomain='*.config.smooch.io', primary_category='Administrative / Management Interfaces', primary_confidence=0.85, alternative_categories=[('Administrative / Management Interfaces', 0.85), ('Administrative / Management Interfaces', 0.85)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'app.config8.startup.mil'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.850), Administrative / Management Interfaces (0.850)')",
+        "EnhancedClassificationResult(subdomain='*.relate.zendesk.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')"
+      ],
+      "uncertain_subdomains": [
+        "EnhancedClassificationResult(subdomain='.smooch.io', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '.smooch.io', 'length': 0, 'parts_count': 3, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'io', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')",
+        "EnhancedClassificationResult(subdomain='*.eu-1.smooch.io', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.6240116874128545), alternative_categories=[('APIs', np.float64(0.03857505356007057)), ('Authentication / Identity', np.float64(0.03704054774336312)), ('Internal Tools / Infrastructure', np.float64(0.03672428893211659))], uncertainty_level='high', uncertainty_reason='Low confidence, multiple categories possible', multi_category_possible=False, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '*.eu-1.smooch.io', 'length': 1, 'parts_count': 4, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'io', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a1 LOW CONFIDENCE: Verify classification manually')",
+        "EnhancedClassificationResult(subdomain='*.nest.smooch.io', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '*.nest.smooch.io', 'length': 1, 'parts_count': 4, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'io', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')",
+        "EnhancedClassificationResult(subdomain='*.realtime.eu-1.smooch.io', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.6240116874128545), alternative_categories=[('APIs', np.float64(0.03857505356007057)), ('Authentication / Identity', np.float64(0.03704054774336312)), ('Internal Tools / Infrastructure', np.float64(0.03672428893211659))], uncertainty_level='high', uncertainty_reason='Low confidence, multiple categories possible', multi_category_possible=False, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '*.realtime.eu-1.smooch.io', 'length': 1, 'parts_count': 5, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'io', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a1 LOW CONFIDENCE: Verify classification manually')",
+        "EnhancedClassificationResult(subdomain='*.realtime.smooch.io', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '*.realtime.smooch.io', 'length': 1, 'parts_count': 4, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'io', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')"
+      ]
+    },
+    "alibaba": {
+      "program_name": "alibaba",
+      "total_subdomains": 200,
+      "analysis_timestamp": 1755815421.773373,
+      "stats": {
+        "total_processed": 200,
+        "confidence_distribution": {
+          "high": 198,
+          "medium": 0,
+          "low": 0,
+          "very_low": 2
+        },
+        "uncertainty_distribution": {
+          "low": 198,
+          "medium": 0,
+          "high": 0,
+          "very_high": 2
+        },
+        "multi_category_count": 200,
+        "manual_review_needed": 2,
+        "category_distribution": {
+          "Administrative / Management Interfaces": 179,
+          "Mobile / Partner / Integration": 3,
+          "Staging / Development / Testing": 3,
+          "Database / Data Services": 1,
+          "Authentication / Identity": 8,
+          "Internal Tools / Infrastructure": 3,
+          "CDN / Storage / Assets": 3
+        },
+        "risk_distribution": {
+          "CRITICAL": 188,
+          "HIGH": 3,
+          "MEDIUM": 9,
+          "LOW": 0,
+          "VARIES": 0
+        },
+        "prediction_sources": {
+          "knowledge_base": 198,
+          "ml_model": 2,
+          "heuristic": 0
+        }
+      },
+      "top_categories": [
+        [
+          "Administrative / Management Interfaces",
+          179
+        ],
+        [
+          "Authentication / Identity",
+          8
+        ],
+        [
+          "Mobile / Partner / Integration",
+          3
+        ],
+        [
+          "Staging / Development / Testing",
+          3
+        ],
+        [
+          "Internal Tools / Infrastructure",
+          3
+        ]
+      ],
+      "high_risk_count": 191,
+      "critical_subdomains": [
+        "EnhancedClassificationResult(subdomain='_dmarc.103.19.1688.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_dmarc.mail.aliyun.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_dmarc.trade.alibaba-inc.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.1688.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.alibaba-inc.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.alibaba.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.alibabacloud.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.alibabagroup.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.aliexpress.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.alimama.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')"
+      ],
+      "uncertain_subdomains": [
+        "EnhancedClassificationResult(subdomain='.ele.me', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '.ele.me', 'length': 0, 'parts_count': 3, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'me', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')",
+        "EnhancedClassificationResult(subdomain='*.aero-rush.ele.me', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '*.aero-rush.ele.me', 'length': 1, 'parts_count': 4, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'me', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')"
+      ]
+    },
+    "at&t": {
+      "program_name": "at&t",
+      "total_subdomains": 200,
+      "analysis_timestamp": 1755815427.4608064,
+      "stats": {
+        "total_processed": 200,
+        "confidence_distribution": {
+          "high": 200,
+          "medium": 0,
+          "low": 0,
+          "very_low": 0
+        },
+        "uncertainty_distribution": {
+          "low": 200,
+          "medium": 0,
+          "high": 0,
+          "very_high": 0
+        },
+        "multi_category_count": 200,
+        "manual_review_needed": 0,
+        "category_distribution": {
+          "Administrative / Management Interfaces": 194,
+          "Staging / Development / Testing": 1,
+          "Authentication / Identity": 5
+        },
+        "risk_distribution": {
+          "CRITICAL": 199,
+          "HIGH": 1,
+          "MEDIUM": 0,
+          "LOW": 0,
+          "VARIES": 0
+        },
+        "prediction_sources": {
+          "knowledge_base": 200,
+          "ml_model": 0,
+          "heuristic": 0
+        }
+      },
+      "top_categories": [
+        [
+          "Administrative / Management Interfaces",
+          194
+        ],
+        [
+          "Authentication / Identity",
+          5
+        ],
+        [
+          "Staging / Development / Testing",
+          1
+        ]
+      ],
+      "high_risk_count": 200,
+      "critical_subdomains": [
+        "EnhancedClassificationResult(subdomain='.att.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.acss.att.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.ai.research.att.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.aic.att.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.aldc.att.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.apps.ocp4.research.att.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.att.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.cso.att.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.ct.att.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.dal.uc.att.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')"
+      ],
+      "uncertain_subdomains": []
+    },
+    "epic_games": {
+      "program_name": "epic_games",
+      "total_subdomains": 200,
+      "analysis_timestamp": 1755815434.5855176,
+      "stats": {
+        "total_processed": 200,
+        "confidence_distribution": {
+          "high": 196,
+          "medium": 0,
+          "low": 0,
+          "very_low": 4
+        },
+        "uncertainty_distribution": {
+          "low": 196,
+          "medium": 0,
+          "high": 0,
+          "very_high": 4
+        },
+        "multi_category_count": 200,
+        "manual_review_needed": 4,
+        "category_distribution": {
+          "Administrative / Management Interfaces": 185,
+          "Mobile / Partner / Integration": 4,
+          "Staging / Development / Testing": 3,
+          "Database / Data Services": 2,
+          "Internal Tools / Infrastructure": 2,
+          "Authentication / Identity": 2,
+          "Marketing / Content / CMS": 2
+        },
+        "risk_distribution": {
+          "CRITICAL": 189,
+          "HIGH": 3,
+          "MEDIUM": 6,
+          "LOW": 2,
+          "VARIES": 0
+        },
+        "prediction_sources": {
+          "knowledge_base": 196,
+          "ml_model": 4,
+          "heuristic": 0
+        }
+      },
+      "top_categories": [
+        [
+          "Administrative / Management Interfaces",
+          185
+        ],
+        [
+          "Mobile / Partner / Integration",
+          4
+        ],
+        [
+          "Staging / Development / Testing",
+          3
+        ],
+        [
+          "Database / Data Services",
+          2
+        ],
+        [
+          "Internal Tools / Infrastructure",
+          2
+        ]
+      ],
+      "high_risk_count": 192,
+      "critical_subdomains": [
+        "EnhancedClassificationResult(subdomain='.3lateral.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.dancecentral.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.dropmix.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.harmonixmusic.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.hmxservices.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.hmxwebservices.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.psyonix.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.rockbandvr.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.singspacegame.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.sketchfab.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')"
+      ],
+      "uncertain_subdomains": [
+        "EnhancedClassificationResult(subdomain='.easy.ac', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '.easy.ac', 'length': 0, 'parts_count': 3, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'ac', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')",
+        "EnhancedClassificationResult(subdomain='*.awesomeads.superawesome.tv', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '*.awesomeads.superawesome.tv', 'length': 1, 'parts_count': 4, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'tv', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')",
+        "EnhancedClassificationResult(subdomain='*.cpapi.kws.superawesome.tv', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '*.cpapi.kws.superawesome.tv', 'length': 1, 'parts_count': 5, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'tv', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')",
+        "EnhancedClassificationResult(subdomain='*.ds.psynet.gg', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '*.ds.psynet.gg', 'length': 1, 'parts_count': 4, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'gg', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')"
+      ]
+    },
+    "tts_bug_bounty": {
+      "program_name": "tts_bug_bounty",
+      "total_subdomains": 200,
+      "analysis_timestamp": 1755815442.79835,
+      "stats": {
+        "total_processed": 200,
+        "confidence_distribution": {
+          "high": 200,
+          "medium": 0,
+          "low": 0,
+          "very_low": 0
+        },
+        "uncertainty_distribution": {
+          "low": 200,
+          "medium": 0,
+          "high": 0,
+          "very_high": 0
+        },
+        "multi_category_count": 200,
+        "manual_review_needed": 0,
+        "category_distribution": {
+          "Administrative / Management Interfaces": 157,
+          "Database / Data Services": 27,
+          "Authentication / Identity": 4,
+          "CDN / Storage / Assets": 3,
+          "Staging / Development / Testing": 6,
+          "Mobile / Partner / Integration": 1,
+          "Internal Tools / Infrastructure": 1,
+          "Monitoring / Logging": 1
+        },
+        "risk_distribution": {
+          "CRITICAL": 188,
+          "HIGH": 6,
+          "MEDIUM": 5,
+          "LOW": 1,
+          "VARIES": 0
+        },
+        "prediction_sources": {
+          "knowledge_base": 200,
+          "ml_model": 0,
+          "heuristic": 0
+        }
+      },
+      "top_categories": [
+        [
+          "Administrative / Management Interfaces",
+          157
+        ],
+        [
+          "Database / Data Services",
+          27
+        ],
+        [
+          "Staging / Development / Testing",
+          6
+        ],
+        [
+          "Authentication / Identity",
+          4
+        ],
+        [
+          "CDN / Storage / Assets",
+          3
+        ]
+      ],
+      "high_risk_count": 194,
+      "critical_subdomains": [
+        "EnhancedClassificationResult(subdomain='_dmarc.18f.gov', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_dmarc.asched1.app.cloud.gov', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_dmarc.asched2.app.cloud.gov', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_dmarc.asched3.app.cloud.gov', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_dmarc.asched4.app.cloud.gov', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_dmarc.calc-pl.app.cloud.gov', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_dmarc.cloud.gov', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_dmarc.crime-data-explorer.fr.cloud.gov', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_dmarc.developer.app.cloud.gov', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_dmarc.digitalgov.sitesusa.app.cloud.gov', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')"
+      ],
+      "uncertain_subdomains": []
+    },
+    "amazon": {
+      "program_name": "amazon",
+      "total_subdomains": 200,
+      "analysis_timestamp": 1755815451.7369826,
+      "stats": {
+        "total_processed": 200,
+        "confidence_distribution": {
+          "high": 188,
+          "medium": 0,
+          "low": 0,
+          "very_low": 12
+        },
+        "uncertainty_distribution": {
+          "low": 188,
+          "medium": 0,
+          "high": 0,
+          "very_high": 12
+        },
+        "multi_category_count": 199,
+        "manual_review_needed": 12,
+        "category_distribution": {
+          "Administrative / Management Interfaces": 155,
+          "Mobile / Partner / Integration": 24,
+          "Authentication / Identity": 1,
+          "Staging / Development / Testing": 19,
+          "Security Services": 1
+        },
+        "risk_distribution": {
+          "CRITICAL": 156,
+          "HIGH": 19,
+          "MEDIUM": 25,
+          "LOW": 0,
+          "VARIES": 0
+        },
+        "prediction_sources": {
+          "knowledge_base": 187,
+          "ml_model": 13,
+          "heuristic": 0
+        }
+      },
+      "top_categories": [
+        [
+          "Administrative / Management Interfaces",
+          155
+        ],
+        [
+          "Mobile / Partner / Integration",
+          24
+        ],
+        [
+          "Staging / Development / Testing",
+          19
+        ],
+        [
+          "Authentication / Identity",
+          1
+        ],
+        [
+          "Security Services",
+          1
+        ]
+      ],
+      "high_risk_count": 175,
+      "critical_subdomains": [
+        "EnhancedClassificationResult(subdomain='_dmarc.amazon.co.uk', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.amazon.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.amazon.com.au', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.amazon.com.mx', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.832631789333-dummy-cdk-console.us-east-1.kaanbk.console-alpha.aws-dev.amazon.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'console3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.account.amazon.com', primary_category='Authentication / Identity', primary_confidence=0.9, alternative_categories=[('Authentication / Identity', 0.9), ('Authentication / Identity', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'accounts3.secure.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Authentication / Identity and Authentication / Identity (0.900), Authentication / Identity (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.acs-internal.amazon.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Internal Tools / Infrastructure', 0.9), ('Internal Tools / Infrastructure', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '*.acss.att.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Internal Tools / Infrastructure (0.900), Internal Tools / Infrastructure (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.af-south-1-failover.console-gamma.aws-dev.amazon.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'console3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.af-south-1-failover.console.aws-dev.amazon.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'console3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.af-south-1.aws-signin-testing.amazon.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')"
+      ],
+      "uncertain_subdomains": [
+        "EnhancedClassificationResult(subdomain='.amazon.de', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '.amazon.de', 'length': 0, 'parts_count': 3, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'de', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')",
+        "EnhancedClassificationResult(subdomain='.amazon.in', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '.amazon.in', 'length': 0, 'parts_count': 3, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'in', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')",
+        "EnhancedClassificationResult(subdomain='.amazon.it', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '.amazon.it', 'length': 0, 'parts_count': 3, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'it', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')",
+        "EnhancedClassificationResult(subdomain='*.amazon.ae', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '*.amazon.ae', 'length': 1, 'parts_count': 3, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'ae', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')",
+        "EnhancedClassificationResult(subdomain='*.amazon.co.jp', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.20649715106015512), alternative_categories=[('APIs', np.float64(0.11085931258045258)), ('Authentication / Identity', np.float64(0.07493923200626015)), ('Internal Tools / Infrastructure', np.float64(0.07429938746091928))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '*.amazon.co.jp', 'length': 1, 'parts_count': 4, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'jp', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')"
+      ]
+    },
+    "slack": {
+      "program_name": "slack",
+      "total_subdomains": 200,
+      "analysis_timestamp": 1755815456.716571,
+      "stats": {
+        "total_processed": 200,
+        "confidence_distribution": {
+          "high": 200,
+          "medium": 0,
+          "low": 0,
+          "very_low": 0
+        },
+        "uncertainty_distribution": {
+          "low": 200,
+          "medium": 0,
+          "high": 0,
+          "very_high": 0
+        },
+        "multi_category_count": 200,
+        "manual_review_needed": 0,
+        "category_distribution": {
+          "Administrative / Management Interfaces": 198,
+          "Authentication / Identity": 1,
+          "Staging / Development / Testing": 1
+        },
+        "risk_distribution": {
+          "CRITICAL": 199,
+          "HIGH": 1,
+          "MEDIUM": 0,
+          "LOW": 0,
+          "VARIES": 0
+        },
+        "prediction_sources": {
+          "knowledge_base": 200,
+          "ml_model": 0,
+          "heuristic": 0
+        }
+      },
+      "top_categories": [
+        [
+          "Administrative / Management Interfaces",
+          198
+        ],
+        [
+          "Authentication / Identity",
+          1
+        ],
+        [
+          "Staging / Development / Testing",
+          1
+        ]
+      ],
+      "high_risk_count": 200,
+      "critical_subdomains": [
+        "EnhancedClassificationResult(subdomain='_dmarc.uncorkgroup.slack.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_dmarc.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='_mta-sts.uncorkgroup.slack.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': '_mta-sts.bestshirt4you.zendesk.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.slack.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.slackb.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.api.slack.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'cpanel3api.company.org'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.auth.slack.com', primary_category='Authentication / Identity', primary_confidence=0.9, alternative_categories=[('Authentication / Identity', 0.9), ('Authentication / Identity', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'auth-dev.secure.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Authentication / Identity and Authentication / Identity (0.900), Authentication / Identity (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.dev.slack.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin-dev.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.dev.status.slack.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin-dev.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.dev10.slack.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.dev1000.slack.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')"
+      ],
+      "uncertain_subdomains": []
+    },
+    "ubiquiti": {
+      "program_name": "ubiquiti",
+      "total_subdomains": 200,
+      "analysis_timestamp": 1755815462.4133732,
+      "stats": {
+        "total_processed": 200,
+        "confidence_distribution": {
+          "high": 200,
+          "medium": 0,
+          "low": 0,
+          "very_low": 0
+        },
+        "uncertainty_distribution": {
+          "low": 200,
+          "medium": 0,
+          "high": 0,
+          "very_high": 0
+        },
+        "multi_category_count": 200,
+        "manual_review_needed": 0,
+        "category_distribution": {
+          "Administrative / Management Interfaces": 122,
+          "Database / Data Services": 38,
+          "Authentication / Identity": 11,
+          "Payment / Transactional": 3,
+          "Marketing / Content / CMS": 13,
+          "CDN / Storage / Assets": 8,
+          "Staging / Development / Testing": 2,
+          "Internal Tools / Infrastructure": 3
+        },
+        "risk_distribution": {
+          "CRITICAL": 171,
+          "HIGH": 2,
+          "MEDIUM": 14,
+          "LOW": 13,
+          "VARIES": 0
+        },
+        "prediction_sources": {
+          "knowledge_base": 200,
+          "ml_model": 0,
+          "heuristic": 0
+        }
+      },
+      "top_categories": [
+        [
+          "Administrative / Management Interfaces",
+          122
+        ],
+        [
+          "Database / Data Services",
+          38
+        ],
+        [
+          "Marketing / Content / CMS",
+          13
+        ],
+        [
+          "Authentication / Identity",
+          11
+        ],
+        [
+          "CDN / Storage / Assets",
+          8
+        ]
+      ],
+      "high_risk_count": 173,
+      "critical_subdomains": [
+        "EnhancedClassificationResult(subdomain='.ubnt.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.ui.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.academy.stg.ui.com', primary_category='Database / Data Services', primary_confidence=0.9, alternative_categories=[('Database / Data Services', 0.9), ('Database / Data Services', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'postgres3.data.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Database / Data Services and Database / Data Services (0.900), Database / Data Services (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.account.dev.ui.com', primary_category='Authentication / Identity', primary_confidence=0.9, alternative_categories=[('Authentication / Identity', 0.9), ('Authentication / Identity', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'accounts3.secure.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Authentication / Identity and Authentication / Identity (0.900), Authentication / Identity (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.account.df.ui.com', primary_category='Authentication / Identity', primary_confidence=0.9, alternative_categories=[('Authentication / Identity', 0.9), ('Authentication / Identity', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'accounts3.secure.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Authentication / Identity and Authentication / Identity (0.900), Authentication / Identity (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.account.stg.ui.com', primary_category='Authentication / Identity', primary_confidence=0.9, alternative_categories=[('Authentication / Identity', 0.9), ('Authentication / Identity', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'accounts3.secure.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Authentication / Identity and Authentication / Identity (0.900), Authentication / Identity (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.account.ui.com', primary_category='Authentication / Identity', primary_confidence=0.9, alternative_categories=[('Authentication / Identity', 0.9), ('Authentication / Identity', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'accounts3.secure.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Authentication / Identity and Authentication / Identity (0.900), Authentication / Identity (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.admin.dev.ui.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.admin.vault.dev.ui.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.admin.vault.stg.ui.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')"
+      ],
+      "uncertain_subdomains": []
+    },
+    "spotify": {
+      "program_name": "spotify",
+      "total_subdomains": 200,
+      "analysis_timestamp": 1755815468.3988807,
+      "stats": {
+        "total_processed": 200,
+        "confidence_distribution": {
+          "high": 198,
+          "medium": 0,
+          "low": 0,
+          "very_low": 2
+        },
+        "uncertainty_distribution": {
+          "low": 198,
+          "medium": 0,
+          "high": 0,
+          "very_high": 2
+        },
+        "multi_category_count": 200,
+        "manual_review_needed": 2,
+        "category_distribution": {
+          "Mobile / Partner / Integration": 2,
+          "Administrative / Management Interfaces": 194,
+          "Staging / Development / Testing": 3,
+          "APIs": 1
+        },
+        "risk_distribution": {
+          "CRITICAL": 194,
+          "HIGH": 3,
+          "MEDIUM": 3,
+          "LOW": 0,
+          "VARIES": 0
+        },
+        "prediction_sources": {
+          "knowledge_base": 198,
+          "ml_model": 2,
+          "heuristic": 0
+        }
+      },
+      "top_categories": [
+        [
+          "Administrative / Management Interfaces",
+          194
+        ],
+        [
+          "Staging / Development / Testing",
+          3
+        ],
+        [
+          "Mobile / Partner / Integration",
+          2
+        ],
+        [
+          "APIs",
+          1
+        ]
+      ],
+      "high_risk_count": 197,
+      "critical_subdomains": [
+        "EnhancedClassificationResult(subdomain='.gimletmedia.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.parcast.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.spotifycodes.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.spotifyforbrands.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.spotifyvault.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='.thenodbuysblack.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.atspotify.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.byspotify.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.confidence.spotify.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.creator.soundtrap.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')"
+      ],
+      "uncertain_subdomains": [
+        "EnhancedClassificationResult(subdomain='.backstage.io', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '.backstage.io', 'length': 0, 'parts_count': 3, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'io', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')",
+        "EnhancedClassificationResult(subdomain='.gimlet.design', primary_category='Mobile / Partner / Integration', primary_confidence=np.float64(0.21350337496691593), alternative_categories=[('APIs', np.float64(0.08069173540715856)), ('Authentication / Identity', np.float64(0.07748183870151477)), ('Internal Tools / Infrastructure', np.float64(0.07682028492615711))], uncertainty_level='very_high', uncertainty_reason='Very uncertain, manual review recommended', multi_category_possible=True, confidence_threshold_met=np.False_, prediction_source='ml_model', features_used={'domain': '.gimlet.design', 'length': 0, 'parts_count': 3, 'has_numbers': False, 'has_hyphens': False, 'has_underscores': False, 'starts_with_number': False, 'keyword_matches': [], 'tld': 'design', 'entropy': 0.0, 'vowel_consonant_ratio': 0.0, 'common_prefix': None, 'common_suffix': None}, recommendation='\u26a0\ufe0f MANUAL REVIEW REQUIRED: Very uncertain classification')"
+      ]
+    },
+    "goodrx": {
+      "program_name": "goodrx",
+      "total_subdomains": 200,
+      "analysis_timestamp": 1755815474.384597,
+      "stats": {
+        "total_processed": 200,
+        "confidence_distribution": {
+          "high": 200,
+          "medium": 0,
+          "low": 0,
+          "very_low": 0
+        },
+        "uncertainty_distribution": {
+          "low": 200,
+          "medium": 0,
+          "high": 0,
+          "very_high": 0
+        },
+        "multi_category_count": 200,
+        "manual_review_needed": 0,
+        "category_distribution": {
+          "Administrative / Management Interfaces": 180,
+          "Authentication / Identity": 9,
+          "Database / Data Services": 2,
+          "CDN / Storage / Assets": 4,
+          "Internal Tools / Infrastructure": 5
+        },
+        "risk_distribution": {
+          "CRITICAL": 191,
+          "HIGH": 0,
+          "MEDIUM": 9,
+          "LOW": 0,
+          "VARIES": 0
+        },
+        "prediction_sources": {
+          "knowledge_base": 200,
+          "ml_model": 0,
+          "heuristic": 0
+        }
+      },
+      "top_categories": [
+        [
+          "Administrative / Management Interfaces",
+          180
+        ],
+        [
+          "Authentication / Identity",
+          9
+        ],
+        [
+          "Internal Tools / Infrastructure",
+          5
+        ],
+        [
+          "CDN / Storage / Assets",
+          4
+        ],
+        [
+          "Database / Data Services",
+          2
+        ]
+      ],
+      "high_risk_count": 191,
+      "critical_subdomains": [
+        "EnhancedClassificationResult(subdomain='*.applebees.goodrx.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.asce.goodrx.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.coloniallife.goodrx.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.coloniallifeny.goodrx.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.dentalplans.goodrx.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.dev.goodrx.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin-dev.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.dineequity.goodrx.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin3.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.edge.tenants.identity-dev.goodrx.com', primary_category='Authentication / Identity', primary_confidence=0.9, alternative_categories=[('Authentication / Identity', 0.9), ('Authentication / Identity', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'auth4.identity.org'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Authentication / Identity and Authentication / Identity (0.900), Authentication / Identity (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.edge.tenants.identity.goodrx.com', primary_category='Authentication / Identity', primary_confidence=0.9, alternative_categories=[('Authentication / Identity', 0.9), ('Authentication / Identity', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'auth4.identity.org'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Authentication / Identity and Authentication / Identity (0.900), Authentication / Identity (0.900)')",
+        "EnhancedClassificationResult(subdomain='*.fastly.lifecycle.dev.goodrx.com', primary_category='Administrative / Management Interfaces', primary_confidence=0.9, alternative_categories=[('Administrative / Management Interfaces', 0.9), ('Administrative / Management Interfaces', 0.9)], uncertainty_level='low', uncertainty_reason='High confidence in prediction', multi_category_possible=True, confidence_threshold_met=True, prediction_source='knowledge_base', features_used={'similar_domain': 'admin-dev.example.com'}, recommendation='\ud83e\udd14 MULTI-CATEGORY POSSIBLE: Consider both Administrative / Management Interfaces and Administrative / Management Interfaces (0.900), Administrative / Management Interfaces (0.900)')"
+      ],
+      "uncertain_subdomains": []
+    }
+  }
+}
