@@ -1,24 +1,22 @@
 # 🔍 NETRA - AI-Powered Subdomain Analysis Tool
 
-An intelligent subdomain analysis tool that builds its own knowledge base from real-world data, reducing dependency on external AI APIs and providing honest uncertainty reporting.
+An intelligent subdomain analysis tool that builds its own knowledge base from real-world data, reducing dependency on external AI APIs while providing advanced ML-powered analysis with confidence scoring.
 
 ## 🚀 Features
 
-### Collection Mode
-- **Multi-tool subdomain enumeration** using:
-  - Subfinder
-  - Amass (passive mode)
-  - Assetfinder
-- **Automatic deduplication** and output consolidation
-- **Graceful error handling** for missing tools
-- **Modular architecture** for easy extension
+### 🧠 Self-Learning Intelligence
+- **Knowledge base construction** from millions of real subdomains
+- **Pattern recognition** and feature extraction algorithms
+- **ML-based classification** with confidence scoring
+- **Incremental learning** and model optimization
+- **Honest uncertainty reporting** when confidence is low
 
-### Analysis Mode
-- **AI-powered categorization** using OpenAI's GPT models
-- **Security risk assessment** for each subdomain
-- **Structured JSON output** for automation
-- **Human-readable reports** for manual review
-- **Fallback heuristic analysis** when AI is unavailable
+### 📊 Advanced Analysis
+- **Multi-dimensional feature extraction** (length, patterns, TLD analysis)
+- **Confidence-based predictions** with uncertainty quantification
+- **Benchmarking and saturation curve analysis**
+- **Model performance metrics** and validation
+- **Comprehensive testing framework** with 10K+ samples
 
 ### Categories
 The tool classifies subdomains into these security-relevant categories:
@@ -38,98 +36,111 @@ The tool classifies subdomains into these security-relevant categories:
 
 ## 📋 Prerequisites
 
-### Required Tools (for collection)
-Install these subdomain enumeration tools:
-
-```bash
-# Install Subfinder
-go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-
-# Install Amass
-go install -v github.com/OWASP/Amass/v3/...@master
-
-# Install Assetfinder
-go install github.com/tomnomnom/assetfinder@latest
-```
-
 ### Python Dependencies
 ```bash
+# Basic dependencies
 pip install -r requirements.txt
+
+# Complete ML dependencies (recommended)
+pip install -r requirements_complete.txt
+
+# Enhanced ML features
+pip install -r requirements_enhanced.txt
 ```
 
 ### OpenAI API Key (optional)
-Set your OpenAI API key for AI-powered analysis:
+Optional for enhanced analysis (NETRA works great without it):
 ```bash
 export OPENAI_API_KEY="your-api-key-here"
 ```
 
 ## 🛠️ Installation
 
-1. Clone or download the tool:
+1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd subdomain-ai
+git clone https://github.com/trinity999/Netra.git
+cd Netra
 ```
 
-2. Install Python dependencies:
+2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r requirements_complete.txt
 ```
 
-3. Make the script executable (Linux/Mac):
+3. Initialize knowledge base (optional):
 ```bash
-chmod +x subdomain_ai.py
+python seed_knowledge_base.py
 ```
 
 ## 💻 Usage
 
-### Basic Usage
+### 🚀 Main NETRA Tool
 
-#### Collection Only
+#### Basic Analysis
 ```bash
-python subdomain_ai.py --collect example.com
+python netra.py sample_subdomains.txt
 ```
 
-#### Analysis Only
+#### With Confidence Threshold
 ```bash
-python subdomain_ai.py --analyze subdomains.txt
+python netra.py subdomains.txt --threshold 0.7
 ```
 
-#### Both Collection and Analysis
+#### Detailed Verbose Output
 ```bash
-python subdomain_ai.py --both example.com
+python netra.py subdomains.txt --verbose
 ```
 
-### Advanced Options
+### 🧠 Knowledge Base Builder
 
-#### Custom Output File
+#### Build Knowledge Base
 ```bash
-python subdomain_ai.py --collect example.com --output my_subdomains.txt
+python learning_analyzer.py
 ```
 
-#### Skip AI Analysis (Use Heuristics)
+#### Seed Initial Knowledge
 ```bash
-python subdomain_ai.py --analyze subdomains.txt --no-ai
+python seed_knowledge_base.py
 ```
 
-#### Specify API Key
+### 🧑‍🔬 Enhanced Classifier
+
+#### Train and Evaluate ML Models
 ```bash
-python subdomain_ai.py --analyze subdomains.txt --api-key "your-key"
+python enhanced_classifier.py
+```
+
+### 🧪 Comprehensive Testing
+
+#### Run Full Test Suite
+```bash
+python massive_testing_framework.py
+```
+
+#### Demo with Examples
+```bash
+python test_enhanced_demo.py
 ```
 
 ### Command Reference
 
 ```
-🔍 Subdomain AI - Security Research Tool
+NETRA - AI-Powered Subdomain Analysis Tool
 
-options:
-  -h, --help           show help message
-  --collect DOMAIN     Collect subdomains for the specified domain
-  --analyze FILE       Analyze subdomains from the specified file
-  --both DOMAIN        Collect and then analyze subdomains for the domain
-  --output FILE        Output file for collected subdomains (default: all_subs.txt)
-  --no-ai             Skip AI analysis and use heuristic-based analysis
-  --api-key KEY        OpenAI API key (or set OPENAI_API_KEY env var)
+Main Tool (netra.py):
+  python netra.py [file] [options]
+  --threshold FLOAT    Confidence threshold (0.0-1.0)
+  --verbose           Detailed output with confidence scores
+  --help              Show help message
+
+Knowledge Builder (learning_analyzer.py):
+  python learning_analyzer.py
+  
+Enhanced Classifier (enhanced_classifier.py):
+  python enhanced_classifier.py
+  
+Testing Framework (massive_testing_framework.py):
+  python massive_testing_framework.py
 ```
 
 ## 📊 Output Files
@@ -167,54 +178,81 @@ options:
 
 ## 🧪 Testing
 
-Test the tool with the included sample:
+Test NETRA with the comprehensive testing suite:
 
 ```bash
-# Test analysis functionality
-python subdomain_ai.py --analyze sample_subdomains.txt
+# Quick demo with examples
+python test_enhanced_demo.py
 
-# Test with heuristic analysis (no AI)
-python subdomain_ai.py --analyze sample_subdomains.txt --no-ai
+# Basic NETRA analysis
+python netra.py sample_subdomains.txt
+
+# Full testing framework (10K+ samples)
+python massive_testing_framework.py
+
+# ML classifier evaluation
+python enhanced_classifier.py
 ```
 
-## 🏗️ Architecture
+## 🏢 Architecture
 
-### Modular Design
-- **`SubdomainCollector`**: Handles enumeration tools
-- **`SubdomainAnalyzer`**: Manages AI analysis and reporting
-- **Clean separation** of collection and analysis logic
-- **Easy extension** for new tools and analysis methods
+### 🧩 NETRA Core Components
+- **`netra.py`**: Main analysis engine with ML integration
+- **`enhanced_classifier.py`**: Advanced ML classification system
+- **`learning_analyzer.py`**: Knowledge base builder and analyzer
+- **`massive_testing_framework.py`**: Comprehensive testing suite
 
-### Error Handling
-- **Graceful tool failures**: Continues with available tools
-- **Timeout protection**: Prevents hanging on slow tools
-- **Missing dependency detection**: Warns about unavailable tools
-- **API error recovery**: Falls back to heuristic analysis
+### 📦 Data Flow
+1. **Input Processing**: Subdomain list normalization
+2. **Feature Extraction**: Multi-dimensional analysis
+3. **ML Classification**: Confidence-based prediction
+4. **Knowledge Integration**: Learning from patterns
+5. **Output Generation**: Structured results with uncertainty
 
-## 🔧 Extending the Tool
+### ⚙️ Error Handling
+- **Confidence thresholding**: Honest uncertainty reporting
+- **Graceful degradation**: Fallback analysis methods
+- **Input validation**: Robust subdomain processing
+- **Model recovery**: Handles ML model failures
 
-### Adding New Collection Tools
+## 🔧 Extending NETRA
 
-1. Add tool function to `SubdomainCollector`:
+### Adding New Features
+
+1. **Enhance Feature Extraction**:
 ```python
-def _run_newtool(self, domain: str) -> Set[str]:
-    # Implementation here
+# In enhanced_classifier.py
+def extract_advanced_features(self, subdomain):
+    # Add new feature extraction logic
+    features['new_metric'] = calculate_new_metric(subdomain)
+    return features
+```
+
+2. **Add Classification Categories**:
+```python
+# In netra.py
+categories = [
+    "Administrative", "API", "Development",
+    "Your New Category"  # Add here
+]
+```
+
+### Improving ML Models
+
+1. **Add New Algorithms**:
+```python
+# In enhanced_classifier.py
+from sklearn.ensemble import GradientBoostingClassifier
+models['gradient_boost'] = GradientBoostingClassifier()
+```
+
+2. **Enhance Knowledge Base**:
+```python
+# In learning_analyzer.py
+def build_domain_knowledge(self, new_data_source):
+    # Process additional data sources
     pass
 ```
-
-2. Register in `__init__`:
-```python
-self.tools['newtool'] = self._run_newtool
-```
-
-### Adding New Analysis Categories
-
-1. Update categories list in `SubdomainAnalyzer.__init__`:
-```python
-self.categories.append("New Category")
-```
-
-2. Add heuristic rules in `_mock_analysis` method
 
 ## ⚠️ Security Considerations
 
@@ -228,23 +266,24 @@ self.categories.append("New Category")
 
 ### Common Issues
 
-**Tools not found:**
-- Ensure tools are in PATH
-- Check installation with `subfinder -version`
+**Dependencies missing:**
+- Install complete requirements: `pip install -r requirements_complete.txt`
+- Check Python version compatibility (3.7+)
 
-**API errors:**
-- Verify OPENAI_API_KEY is set
-- Check API quota and billing
-- Review network connectivity
+**Low confidence predictions:**
+- Normal behavior - NETRA reports uncertainty honestly
+- Build larger knowledge base with `learning_analyzer.py`
+- Lower confidence threshold: `--threshold 0.5`
 
-**Empty results:**
-- Domain may have no public subdomains
-- Tools may be blocked by rate limiting
-- Check domain spelling and validity
+**ML model errors:**
+- Ensure scikit-learn is properly installed
+- Check if models need retraining
+- Fallback to heuristic analysis available
 
-**Permission errors:**
-- Ensure write permissions in current directory
-- Check file system space availability
+**File not found errors:**
+- Verify input file path and format
+- Use provided `sample_subdomains.txt` for testing
+- Ensure write permissions for output files
 
 ## 📝 License
 
