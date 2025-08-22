@@ -1,0 +1,3 @@
+Scanning started: 08/22/2025 12:13:28
+Tool: subdomain_ai_enhanced.py
+Max parallel jobs: 2

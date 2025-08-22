@@ -1,0 +1,85 @@
+Platform,Program,Total Subdomains,Critical Risk,High Risk,Top Category,Unique Patterns
+Bugcrowd,cisco_meraki,300,261,0,Administrative / Management Interfaces,2
+Bugcrowd,comcast_xfinity,300,206,13,Administrative / Management Interfaces,115
+Bugcrowd,dell_technologies,300,254,0,Administrative / Management Interfaces,67
+Bugcrowd,etsy,300,300,0,Administrative / Management Interfaces,13
+Bugcrowd,sophos,300,293,2,Administrative / Management Interfaces,19
+Bugcrowd,binance,300,295,1,Administrative / Management Interfaces,68
+Bugcrowd,planethoster,300,287,0,Administrative / Management Interfaces,18
+Bugcrowd,indeed,300,96,12,APIs,22
+Bugcrowd,tesla,300,287,0,Administrative / Management Interfaces,77
+Bugcrowd,atlassian,300,286,1,Administrative / Management Interfaces,36
+Bugcrowd,monash_mbb,300,227,0,Administrative / Management Interfaces,116
+Bugcrowd,seek,300,274,0,Administrative / Management Interfaces,62
+Bugcrowd,dropbox,300,294,0,Administrative / Management Interfaces,90
+Bugcrowd,opera_public_bug_bounty,300,284,0,Administrative / Management Interfaces,151
+Bugcrowd,foxycart,300,284,9,Administrative / Management Interfaces,31
+Bugcrowd,square,300,219,5,Administrative / Management Interfaces,109
+Bugcrowd,invision,300,296,0,Administrative / Management Interfaces,178
+Bugcrowd,united_airlines,300,293,2,Administrative / Management Interfaces,59
+Bugcrowd,optimizely,300,277,1,Administrative / Management Interfaces,30
+HackerOne,zendesk,300,269,5,Administrative / Management Interfaces,53
+HackerOne,alibaba,300,289,5,Administrative / Management Interfaces,38
+HackerOne,at&t,300,299,1,Administrative / Management Interfaces,178
+HackerOne,epic_games,300,289,3,Administrative / Management Interfaces,33
+HackerOne,tts_bug_bounty,300,284,5,Administrative / Management Interfaces,132
+HackerOne,amazon,300,277,19,Administrative / Management Interfaces,37
+HackerOne,slack,300,299,1,Administrative / Management Interfaces,1
+HackerOne,ubiquiti,300,256,4,Administrative / Management Interfaces,41
+HackerOne,spotify,300,295,3,Administrative / Management Interfaces,10
+HackerOne,goodrx,300,287,0,Administrative / Management Interfaces,101
+HackerOne,algolia,300,294,1,Administrative / Management Interfaces,251
+HackerOne,reddit,300,283,1,Administrative / Management Interfaces,21
+HackerOne,cloudflare,300,278,7,Administrative / Management Interfaces,69
+HackerOne,quora,300,300,0,Administrative / Management Interfaces,75
+HackerOne,visma_public,300,2,0,CDN / Storage / Assets,0
+HackerOne,elastic,300,291,1,Administrative / Management Interfaces,5
+HackerOne,paypal,300,121,11,Payment / Transactional,52
+HackerOne,pixiv,300,107,0,CDN / Storage / Assets,31
+HackerOne,github,300,298,0,Administrative / Management Interfaces,17
+HackerOne,twitter,300,287,2,Administrative / Management Interfaces,9
+Intigriti,yahoo!,300,296,0,Administrative / Management Interfaces,3
+Intigriti,telenet,300,220,3,Administrative / Management Interfaces,141
+Intigriti,tweakers,300,295,0,Administrative / Management Interfaces,15
+Intigriti,dpg_media,165,77,4,Internal Tools / Infrastructure,28
+Intigriti,torfs,163,76,3,Administrative / Management Interfaces,52
+Intigriti,uphold,101,79,12,Administrative / Management Interfaces,25
+Intigriti,intigriti,68,53,3,Administrative / Management Interfaces,25
+Intigriti,clabs,56,53,0,Administrative / Management Interfaces,8
+Microsoft,telenor,300,224,4,Administrative / Management Interfaces,238
+Microsoft,ovh,300,93,6,Monitoring / Logging,204
+Microsoft,dailymotion,300,270,4,Administrative / Management Interfaces,157
+Microsoft,swiss_post,300,267,1,Database / Data Services,88
+Microsoft,coingecko,300,291,0,Administrative / Management Interfaces,154
+Microsoft,qwant,300,292,3,Administrative / Management Interfaces,10
+Microsoft,deezer,300,190,0,Administrative / Management Interfaces,139
+Microsoft,infomaniak,300,274,18,Administrative / Management Interfaces,35
+Microsoft,chainstack,300,198,16,Administrative / Management Interfaces,84
+Microsoft,harman_international,300,272,19,Administrative / Management Interfaces,8
+Microsoft,nicehash,300,295,0,Administrative / Management Interfaces,47
+Microsoft,blablacar,300,195,21,Administrative / Management Interfaces,32
+Microsoft,contentsquare,300,280,11,Administrative / Management Interfaces,100
+Microsoft,datadome,300,194,32,Administrative / Management Interfaces,132
+Microsoft,poloniex,300,229,45,Administrative / Management Interfaces,148
+Microsoft,swapcard,272,255,2,Administrative / Management Interfaces,38
+Microsoft,okx,214,209,0,Administrative / Management Interfaces,1
+Synack,yandex,300,192,17,Administrative / Management Interfaces,31
+Synack,stanford_university,300,298,0,Administrative / Management Interfaces,122
+Synack,microsoft_online_services,300,283,0,Administrative / Management Interfaces,35
+Synack,zoom,300,199,87,Administrative / Management Interfaces,195
+Synack,google,300,274,16,Administrative / Management Interfaces,110
+Synack,apple,300,299,1,Administrative / Management Interfaces,252
+Synack,facebook,300,276,21,Administrative / Management Interfaces,228
+Synack,tencent,300,283,3,Administrative / Management Interfaces,47
+Synack,deutsche_telekom,300,223,8,Administrative / Management Interfaces,112
+Synack,web.de,300,287,4,Administrative / Management Interfaces,91
+Synack,baidu,300,294,1,Administrative / Management Interfaces,14
+Synack,datto_vdp,300,299,1,Administrative / Management Interfaces,2
+Synack,h&m_group,300,215,0,Administrative / Management Interfaces,154
+Synack,bentley,300,278,14,Administrative / Management Interfaces,142
+Synack,nos,300,294,2,Authentication / Identity,73
+Synack,meituan,300,235,51,Administrative / Management Interfaces,3
+Synack,jivochat,300,293,2,Administrative / Management Interfaces,41
+Synack,liquidweb,300,296,1,Administrative / Management Interfaces,57
+Synack,samsung_tv,300,275,4,Administrative / Management Interfaces,49
+Synack,oppo (1),300,269,0,Administrative / Management Interfaces,60

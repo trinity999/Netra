@@ -1,0 +1,85 @@
+{
+  "total_samples_trained": 19617,
+  "training_sessions": 7,
+  "categories_learned": [
+    "Authentication / Identity",
+    "APIs",
+    "Mobile / Partner / Integration",
+    "CDN / Storage / Assets",
+    "Monitoring / Logging",
+    "Payment / Transactional",
+    "Security Services",
+    "Marketing / Content / CMS",
+    "Staging / Development / Testing",
+    "Database / Data Services",
+    "Internal Tools / Infrastructure",
+    "Administrative / Management Interfaces"
+  ],
+  "accuracy_history": [
+    {
+      "session": 1,
+      "train_accuracy": 0.9415992812219227,
+      "val_accuracy": 0.8610909090909091,
+      "samples_used": 9166,
+      "categories_count": 12,
+      "training_time": 1634.582131,
+      "timestamp": "2025-08-22T13:51:24.730944"
+    },
+    {
+      "session": 2,
+      "train_accuracy": 0.9438234451132129,
+      "val_accuracy": 0.8582251082251082,
+      "samples_used": 12315,
+      "categories_count": 12,
+      "training_time": 2851.706556,
+      "timestamp": "2025-08-22T14:39:09.560323"
+    },
+    {
+      "session": 3,
+      "train_accuracy": 0.9392234548335975,
+      "val_accuracy": 0.8752244165170556,
+      "samples_used": 14848,
+      "categories_count": 12,
+      "training_time": 3539.261137,
+      "timestamp": "2025-08-22T15:38:23.944315"
+    },
+    {
+      "session": 4,
+      "train_accuracy": 0.9331714087439278,
+      "val_accuracy": 0.8769170271333071,
+      "samples_used": 16953,
+      "categories_count": 12,
+      "training_time": 4146.762286,
+      "timestamp": "2025-08-22T16:47:45.880008"
+    },
+    {
+      "session": 5,
+      "train_accuracy": 0.9321702985262628,
+      "val_accuracy": 0.8790149892933619,
+      "samples_used": 18680,
+      "categories_count": 12,
+      "training_time": 4680.984711,
+      "timestamp": "2025-08-22T18:06:03.410590"
+    },
+    {
+      "session": 6,
+      "train_accuracy": 0.9312702410939186,
+      "val_accuracy": 0.8708800543662929,
+      "samples_used": 19617,
+      "categories_count": 12,
+      "training_time": 4929.99745,
+      "timestamp": "2025-08-22T19:28:25.476333"
+    },
+    {
+      "session": 7,
+      "train_accuracy": 0.9312702410939186,
+      "val_accuracy": 0.8708800543662929,
+      "samples_used": 19617,
+      "categories_count": 12,
+      "training_time": 4941.163664,
+      "timestamp": "2025-08-22T20:50:53.055556"
+    }
+  ],
+  "last_updated": "2025-08-22T20:50:53.055563",
+  "model_version": "1.0"
+}

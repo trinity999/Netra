@@ -1,0 +1,284 @@
+[
+  {
+    "subdomain": "admin.example.com",
+    "categories": [
+      "Administrative / Management Interfaces"
+    ],
+    "possible_risks": [
+      "Weak authentication",
+      "Exposed management interface",
+      "Privilege escalation"
+    ]
+  },
+  {
+    "subdomain": "api.example.com",
+    "categories": [
+      "APIs"
+    ],
+    "possible_risks": [
+      "Broken authentication",
+      "Exposed endpoints",
+      "Rate limiting bypass",
+      "Data exposure"
+    ]
+  },
+  {
+    "subdomain": "api-staging.example.com",
+    "categories": [
+      "APIs"
+    ],
+    "possible_risks": [
+      "Broken authentication",
+      "Exposed endpoints",
+      "Rate limiting bypass",
+      "Data exposure"
+    ]
+  },
+  {
+    "subdomain": "auth.example.com",
+    "categories": [
+      "Authentication / Identity"
+    ],
+    "possible_risks": [
+      "Authentication bypass",
+      "Session hijacking",
+      "OAuth misconfigurations"
+    ]
+  },
+  {
+    "subdomain": "blog.example.com",
+    "categories": [
+      "Marketing / Content / CMS"
+    ],
+    "possible_risks": [
+      "Information disclosure",
+      "CMS vulnerabilities",
+      "SEO poisoning"
+    ]
+  },
+  {
+    "subdomain": "cdn.example.com",
+    "categories": [
+      "CDN / Storage / Assets"
+    ],
+    "possible_risks": [
+      "File upload vulnerabilities",
+      "Directory traversal",
+      "Sensitive file exposure"
+    ]
+  },
+  {
+    "subdomain": "dashboard.example.com",
+    "categories": [
+      "Administrative / Management Interfaces"
+    ],
+    "possible_risks": [
+      "Weak authentication",
+      "Exposed management interface",
+      "Privilege escalation"
+    ]
+  },
+  {
+    "subdomain": "db.example.com",
+    "categories": [
+      "Database / Data Services"
+    ],
+    "possible_risks": [
+      "Database exposure",
+      "Injection vulnerabilities",
+      "Data breach potential"
+    ]
+  },
+  {
+    "subdomain": "dev.example.com",
+    "categories": [
+      "Staging / Development / Testing"
+    ],
+    "possible_risks": [
+      "Debug info leaks",
+      "Weak authentication",
+      "Outdated versions",
+      "Test data exposure"
+    ]
+  },
+  {
+    "subdomain": "files.example.com",
+    "categories": [
+      "CDN / Storage / Assets"
+    ],
+    "possible_risks": [
+      "File upload vulnerabilities",
+      "Directory traversal",
+      "Sensitive file exposure"
+    ]
+  },
+  {
+    "subdomain": "grafana.example.com",
+    "categories": [
+      "Internal Tools / Infrastructure"
+    ],
+    "possible_risks": [
+      "Internal system access",
+      "Source code exposure",
+      "Infrastructure compromise"
+    ]
+  },
+  {
+    "subdomain": "jenkins.example.com",
+    "categories": [
+      "Internal Tools / Infrastructure"
+    ],
+    "possible_risks": [
+      "Internal system access",
+      "Source code exposure",
+      "Infrastructure compromise"
+    ]
+  },
+  {
+    "subdomain": "login.example.com",
+    "categories": [
+      "Authentication / Identity"
+    ],
+    "possible_risks": [
+      "Authentication bypass",
+      "Session hijacking",
+      "OAuth misconfigurations"
+    ]
+  },
+  {
+    "subdomain": "mail.example.com",
+    "categories": [
+      "Marketing / Content / CMS"
+    ],
+    "possible_risks": [
+      "Information disclosure",
+      "CMS vulnerabilities",
+      "SEO poisoning"
+    ]
+  },
+  {
+    "subdomain": "mobile-api.example.com",
+    "categories": [
+      "APIs"
+    ],
+    "possible_risks": [
+      "Broken authentication",
+      "Exposed endpoints",
+      "Rate limiting bypass",
+      "Data exposure"
+    ]
+  },
+  {
+    "subdomain": "payments.example.com",
+    "categories": [
+      "Payment / Transactional"
+    ],
+    "possible_risks": [
+      "Payment bypass",
+      "Financial data exposure",
+      "Transaction manipulation"
+    ]
+  },
+  {
+    "subdomain": "portal.example.com",
+    "categories": [
+      "Administrative / Management Interfaces"
+    ],
+    "possible_risks": [
+      "Weak authentication",
+      "Exposed management interface",
+      "Privilege escalation"
+    ]
+  },
+  {
+    "subdomain": "qa.example.com",
+    "categories": [
+      "Staging / Development / Testing"
+    ],
+    "possible_risks": [
+      "Debug info leaks",
+      "Weak authentication",
+      "Outdated versions",
+      "Test data exposure"
+    ]
+  },
+  {
+    "subdomain": "redis.example.com",
+    "categories": [
+      "Database / Data Services"
+    ],
+    "possible_risks": [
+      "Database exposure",
+      "Injection vulnerabilities",
+      "Data breach potential"
+    ]
+  },
+  {
+    "subdomain": "staging.example.com",
+    "categories": [
+      "Staging / Development / Testing"
+    ],
+    "possible_risks": [
+      "Debug info leaks",
+      "Weak authentication",
+      "Outdated versions",
+      "Test data exposure"
+    ]
+  },
+  {
+    "subdomain": "static.example.com",
+    "categories": [
+      "CDN / Storage / Assets"
+    ],
+    "possible_risks": [
+      "File upload vulnerabilities",
+      "Directory traversal",
+      "Sensitive file exposure"
+    ]
+  },
+  {
+    "subdomain": "test.example.com",
+    "categories": [
+      "Staging / Development / Testing"
+    ],
+    "possible_risks": [
+      "Debug info leaks",
+      "Weak authentication",
+      "Outdated versions",
+      "Test data exposure"
+    ]
+  },
+  {
+    "subdomain": "uploads.example.com",
+    "categories": [
+      "CDN / Storage / Assets"
+    ],
+    "possible_risks": [
+      "File upload vulnerabilities",
+      "Directory traversal",
+      "Sensitive file exposure"
+    ]
+  },
+  {
+    "subdomain": "vpn.example.com",
+    "categories": [
+      "Internal Tools / Infrastructure"
+    ],
+    "possible_risks": [
+      "Internal system access",
+      "Source code exposure",
+      "Infrastructure compromise"
+    ]
+  },
+  {
+    "subdomain": "www.example.com",
+    "categories": [
+      "Marketing / Content / CMS"
+    ],
+    "possible_risks": [
+      "Information disclosure",
+      "CMS vulnerabilities",
+      "SEO poisoning"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "completed_chunks": 55,
+  "total_chunks": 55,
+  "last_checkpoint": "training_checkpoints\\checkpoint_chunk_000_1.000.json",
+  "training_started": "2025-08-22T12:40:31.631798",
+  "current_accuracy": 0.28,
+  "best_accuracy": 1.0,
+  "training_samples_processed": 27500,
+  "last_updated": "2025-08-22T12:58:36.547228",
+  "error": "The least populated class in y has only 1 member, which is too few. The minimum number of groups for any class cannot be less than 2.",
+  "interrupted_at": "2025-08-22T12:40:44.621064"
+}

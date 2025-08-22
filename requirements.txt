@@ -1,8 +1,33 @@
-# Subdomain AI - Requirements
+# NETRA - Advanced Subdomain Intelligence Platform
 # Install with: pip install -r requirements.txt
 
-# Core dependencies
-openai>=1.0.0
+# Core Machine Learning Dependencies
+scikit-learn>=1.3.0
+numpy>=1.21.0
+pandas>=1.3.0
+joblib>=1.1.0
 
-# Optional: For enhanced functionality
+# System Monitoring & Performance
+psutil>=5.8.0
+tqdm>=4.64.0
+
+# Network & Security Tools
 requests>=2.28.0
+urllib3>=1.26.0
+
+# Visualization & Analysis (Optional)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Development & Testing
+pytest>=7.0.0
+
+# Configuration & Utilities
+python-dotenv>=0.19.0
+
+# Optional: Enhanced ML Models
+# xgboost>=1.6.0
+# lightgbm>=3.3.0
+
+# Optional: OpenAI Integration (Legacy)
+# openai>=1.0.0

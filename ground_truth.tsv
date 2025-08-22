@@ -1,0 +1,500 @@
+vpn-eu.infra.net	Internal Tools / Infrastructure
+demo5.service.dev	Staging / Development / Testing
+demo-eu.app.test	Staging / Development / Testing
+ci5.infra.net	Internal Tools / Infrastructure
+css-prod.media.io	CDN / Storage / Assets
+partner.mobile.com	Mobile / Partner / Integration
+vpn.internal.com	Internal Tools / Infrastructure
+invoice2.billing.org	Payment / Transactional
+console-us.example.com	Administrative / Management Interfaces
+images-asia.media.io	CDN / Storage / Assets
+mobile-eu.api.org	Mobile / Partner / Integration
+wordpress-staging.website.com	Marketing / Content / CMS
+waf-eu.ssl.co	Security Services
+data3.database.co	Database / Data Services
+login.sso.co	Authentication / Identity
+dev.app.test	Staging / Development / Testing
+cms-test.cms.org	Marketing / Content / CMS
+monitor-dev.health.co	Monitoring / Logging
+rest-asia.app.dev	APIs
+assets-prod.assets.net	CDN / Storage / Assets
+service-west.system.net	APIs
+metrics.metrics.net	Monitoring / Logging
+endpoint.tech.co	APIs
+dashboard3.app.io	Administrative / Management Interfaces
+ios4.app.io	Mobile / Partner / Integration
+deploy.internal.com	Internal Tools / Infrastructure
+about1.marketing.co	Marketing / Content / CMS
+saml.auth.io	Authentication / Identity
+identity3.login.net	Authentication / Identity
+alpha.company.com	Staging / Development / Testing
+js.media.io	CDN / Storage / Assets
+sandbox-staging.product.io	Staging / Development / Testing
+api.app.dev	APIs
+control1.site.net	Administrative / Management Interfaces
+integration2.integration.co	Mobile / Partner / Integration
+build-west.internal.com	Internal Tools / Infrastructure
+android.api.org	Mobile / Partner / Integration
+payments-asia.store.net	Payment / Transactional
+logs-test.health.co	Monitoring / Logging
+admin.site.net	Administrative / Management Interfaces
+webhook2.system.net	APIs
+test2.service.dev	Staging / Development / Testing
+db.storage.net	Database / Data Services
+static-dev.content.com	CDN / Storage / Assets
+cdn-west.static.org	CDN / Storage / Assets
+api.tech.co	APIs
+identity2service.login.net	Authentication / Identity
+app-west.partner.net	Mobile / Partner / Integration
+billing-staging.store.net	Payment / Transactional
+mysql-staging.data.com	Database / Data Services
+cdn3.media.io	CDN / Storage / Assets
+mysql.db.io	Database / Data Services
+dev1app.service.dev	Staging / Development / Testing
+jenkins.ops.co	Internal Tools / Infrastructure
+beta-dev.company.com	Staging / Development / Testing
+endpoint3.service.io	APIs
+git.tools.io	Internal Tools / Infrastructure
+jira-app.ops.co	Internal Tools / Infrastructure
+partner1.partner.net	Mobile / Partner / Integration
+staging-staging.product.io	Staging / Development / Testing
+endpoint-staging.platform.com	APIs
+demo2.app.test	Staging / Development / Testing
+sandbox.service.dev	Staging / Development / Testing
+uptime-test.monitor.com	Monitoring / Logging
+elastic.storage.net	Database / Data Services
+help.website.com	Marketing / Content / CMS
+staging2.company.com	Staging / Development / Testing
+jira3.infra.net	Internal Tools / Infrastructure
+accounts4.login.net	Authentication / Identity
+jira3app.ops.co	Internal Tools / Infrastructure
+careers5.marketing.co	Marketing / Content / CMS
+app-us.app.io	Mobile / Partner / Integration
+cert-eu.firewall.org	Security Services
+status5.uptime.org	Monitoring / Logging
+deploy-us.tools.io	Internal Tools / Infrastructure
+jira3service.devops.org	Internal Tools / Infrastructure
+health-east.monitor.com	Monitoring / Logging
+wordpress1web.content.net	Marketing / Content / CMS
+jenkins-dev.ops.co	Internal Tools / Infrastructure
+api.service.io	APIs
+graphql.app.dev	APIs
+webhook-east.system.net	APIs
+firewall-test.vpn.net	Security Services
+sql-prod.database.co	Database / Data Services
+ios-prod.app.io	Mobile / Partner / Integration
+api.platform.com	APIs
+careers-staging.content.net	Marketing / Content / CMS
+cms4.website.com	Marketing / Content / CMS
+billing-eu.commerce.com	Payment / Transactional
+stripe.payment.co	Payment / Transactional
+status.health.co	Monitoring / Logging
+health.uptime.org	Monitoring / Logging
+m1.partner.net	Mobile / Partner / Integration
+billing.store.net	Payment / Transactional
+ssl.firewall.org	Security Services
+monitor.metrics.net	Monitoring / Logging
+help1.blog.io	Marketing / Content / CMS
+files.content.com	CDN / Storage / Assets
+cert-us.security.io	Security Services
+static.static.org	CDN / Storage / Assets
+mysql.analytics.org	Database / Data Services
+preprod.platform.net	Staging / Development / Testing
+sql.storage.net	Database / Data Services
+admin.app.io	Administrative / Management Interfaces
+waf-us.vpn.net	Security Services
+idp.login.net	Authentication / Identity
+about4.cms.org	Marketing / Content / CMS
+monitor2.health.co	Monitoring / Logging
+checkout-eu.payment.co	Payment / Transactional
+vpn1.firewall.org	Security Services
+blog.cms.org	Marketing / Content / CMS
+vpn-asia.firewall.org	Security Services
+demo.company.com	Staging / Development / Testing
+ping-west.status.io	Monitoring / Logging
+rest2.service.io	APIs
+drupal.cms.org	Marketing / Content / CMS
+dev4.platform.net	Staging / Development / Testing
+js.static.org	CDN / Storage / Assets
+cms-west.blog.io	Marketing / Content / CMS
+careers-prod.blog.io	Marketing / Content / CMS
+dashboard-west.company.org	Administrative / Management Interfaces
+data-staging.data.com	Database / Data Services
+sandbox-test.company.com	Staging / Development / Testing
+payments5.payment.co	Payment / Transactional
+demo.product.io	Staging / Development / Testing
+checkout3.shop.io	Payment / Transactional
+integration3.api.org	Mobile / Partner / Integration
+jira-asia.infra.net	Internal Tools / Infrastructure
+ci-asia.internal.com	Internal Tools / Infrastructure
+checkout-staging.shop.io	Payment / Transactional
+alpha-prod.service.dev	Staging / Development / Testing
+monitor-staging.status.io	Monitoring / Logging
+logs-asia.status.io	Monitoring / Logging
+security3.vpn.net	Security Services
+wordpress.blog.io	Marketing / Content / CMS
+dashboard.service.co	Administrative / Management Interfaces
+identity-us.secure.com	Authentication / Identity
+beta-us.company.com	Staging / Development / Testing
+microservice4.app.dev	APIs
+ssl-app.security.io	Security Services
+about-us.marketing.co	Marketing / Content / CMS
+rest-us.system.net	APIs
+assets-asia.assets.net	CDN / Storage / Assets
+wordpress2.blog.io	Marketing / Content / CMS
+pay-api.payment.co	Payment / Transactional
+payments-west.commerce.com	Payment / Transactional
+ping.health.co	Monitoring / Logging
+media.static.org	CDN / Storage / Assets
+elastic.database.co	Database / Data Services
+git-west.infra.net	Internal Tools / Infrastructure
+ci.ops.co	Internal Tools / Infrastructure
+saml3.login.net	Authentication / Identity
+health-west.status.io	Monitoring / Logging
+app-west.api.org	Mobile / Partner / Integration
+demo.app.test	Staging / Development / Testing
+sql.db.io	Database / Data Services
+checkout-api.store.net	Payment / Transactional
+mongo-east.storage.net	Database / Data Services
+kibana.internal.com	Internal Tools / Infrastructure
+help.blog.io	Marketing / Content / CMS
+dashboard-test.app.io	Administrative / Management Interfaces
+integration2.app.io	Mobile / Partner / Integration
+cert-test.security.io	Security Services
+app-west.mobile.com	Mobile / Partner / Integration
+checkout.billing.org	Payment / Transactional
+payments-east.payment.co	Payment / Transactional
+panel.site.net	Administrative / Management Interfaces
+api-api.service.io	APIs
+graphql-dev.tech.co	APIs
+mysql.storage.net	Database / Data Services
+mongo3.database.co	Database / Data Services
+files3.assets.net	CDN / Storage / Assets
+portal4.site.net	Administrative / Management Interfaces
+static-asia.media.io	CDN / Storage / Assets
+blog-test.marketing.co	Marketing / Content / CMS
+ci1.internal.com	Internal Tools / Infrastructure
+press3.marketing.co	Marketing / Content / CMS
+checkout5.store.net	Payment / Transactional
+ssl-test.security.io	Security Services
+oauth-eu.identity.org	Authentication / Identity
+assets-test.static.org	CDN / Storage / Assets
+mongo-staging.database.co	Database / Data Services
+monitor-west.status.io	Monitoring / Logging
+admin-staging.example.com	Administrative / Management Interfaces
+uptime.monitor.com	Monitoring / Logging
+sso4.identity.org	Authentication / Identity
+m2.api.org	Mobile / Partner / Integration
+redis-staging.db.io	Database / Data Services
+ci1.tools.io	Internal Tools / Infrastructure
+careers.marketing.co	Marketing / Content / CMS
+billing-staging.shop.io	Payment / Transactional
+git-staging.infra.net	Internal Tools / Infrastructure
+dashboard-test.example.com	Administrative / Management Interfaces
+postgres3.storage.net	Database / Data Services
+manage3.service.co	Administrative / Management Interfaces
+idp-asia.secure.com	Authentication / Identity
+status.metrics.net	Monitoring / Logging
+paypal-west.commerce.com	Payment / Transactional
+saml-asia.identity.org	Authentication / Identity
+billing.payment.co	Payment / Transactional
+webhook-asia.platform.com	APIs
+test.company.com	Staging / Development / Testing
+secure.ssl.co	Security Services
+css-east.assets.net	CDN / Storage / Assets
+wordpress-west.content.net	Marketing / Content / CMS
+graphql5.system.net	APIs
+stripe.shop.io	Payment / Transactional
+rest-eu.platform.com	APIs
+assets.assets.net	CDN / Storage / Assets
+sso-eu.sso.co	Authentication / Identity
+ci.infra.net	Internal Tools / Infrastructure
+security-west.secure.com	Security Services
+identity-test.sso.co	Authentication / Identity
+qa3.product.io	Staging / Development / Testing
+jira-service.devops.org	Internal Tools / Infrastructure
+endpoint2.app.dev	APIs
+jenkins2web.devops.org	Internal Tools / Infrastructure
+checkout.payment.co	Payment / Transactional
+api-dev.app.dev	APIs
+uptime.health.co	Monitoring / Logging
+sandbox-us.product.io	Staging / Development / Testing
+integration4.partner.net	Mobile / Partner / Integration
+deploy5.tools.io	Internal Tools / Infrastructure
+help5.marketing.co	Marketing / Content / CMS
+assets2.content.com	CDN / Storage / Assets
+css-prod.cdn.co	CDN / Storage / Assets
+android3.api.org	Mobile / Partner / Integration
+uptime1.uptime.org	Monitoring / Logging
+grafana5.devops.org	Internal Tools / Infrastructure
+auth4.sso.co	Authentication / Identity
+logs.health.co	Monitoring / Logging
+static-asia.cdn.co	CDN / Storage / Assets
+control-dev.site.net	Administrative / Management Interfaces
+payments-staging.commerce.com	Payment / Transactional
+oauth2.auth.io	Authentication / Identity
+checkout1api.store.net	Payment / Transactional
+manage-staging.site.net	Administrative / Management Interfaces
+m-staging.mobile.com	Mobile / Partner / Integration
+build-east.tools.io	Internal Tools / Infrastructure
+deploy-west.ops.co	Internal Tools / Infrastructure
+status-test.health.co	Monitoring / Logging
+mysql-us.storage.net	Database / Data Services
+mobile4.api.org	Mobile / Partner / Integration
+assets-dev.cdn.co	CDN / Storage / Assets
+idp-prod.secure.com	Authentication / Identity
+drupal-us.blog.io	Marketing / Content / CMS
+admin.service.co	Administrative / Management Interfaces
+images.content.com	CDN / Storage / Assets
+staging.product.io	Staging / Development / Testing
+firewall3.firewall.org	Security Services
+files-west.cdn.co	CDN / Storage / Assets
+uptime3service.status.io	Monitoring / Logging
+qa-staging.platform.net	Staging / Development / Testing
+images3.static.org	CDN / Storage / Assets
+payments-east.shop.io	Payment / Transactional
+files3.media.io	CDN / Storage / Assets
+billing-test.payment.co	Payment / Transactional
+accounts-us.identity.org	Authentication / Identity
+qa-eu.platform.net	Staging / Development / Testing
+monitor.health.co	Monitoring / Logging
+staging4.app.test	Staging / Development / Testing
+alpha-dev.company.com	Staging / Development / Testing
+preprod-staging.service.dev	Staging / Development / Testing
+auth-staging.auth.io	Authentication / Identity
+panel-staging.example.com	Administrative / Management Interfaces
+oauth-api.login.net	Authentication / Identity
+ssl-west.vpn.net	Security Services
+microservice-staging.app.dev	APIs
+monitor5.uptime.org	Monitoring / Logging
+webhook-asia.tech.co	APIs
+grafana3.tools.io	Internal Tools / Infrastructure
+identity1.secure.com	Authentication / Identity
+uptime.metrics.net	Monitoring / Logging
+invoice-east.billing.org	Payment / Transactional
+health-asia.uptime.org	Monitoring / Logging
+m-test.integration.co	Mobile / Partner / Integration
+service2.platform.com	APIs
+cms.website.com	Marketing / Content / CMS
+endpoint4.system.net	APIs
+invoice-dev.store.net	Payment / Transactional
+kibana4.infra.net	Internal Tools / Infrastructure
+uptime-prod.metrics.net	Monitoring / Logging
+paypal-eu.billing.org	Payment / Transactional
+elastic2.analytics.org	Database / Data Services
+sso-prod.identity.org	Authentication / Identity
+auth.identity.org	Authentication / Identity
+assets5.media.io	CDN / Storage / Assets
+mobile-us.app.io	Mobile / Partner / Integration
+grafana.devops.org	Internal Tools / Infrastructure
+vpn-west.devops.org	Internal Tools / Infrastructure
+static.cdn.co	CDN / Storage / Assets
+android2app.api.org	Mobile / Partner / Integration
+blog-test.website.com	Marketing / Content / CMS
+app4.integration.co	Mobile / Partner / Integration
+manage.service.co	Administrative / Management Interfaces
+cpanel-west.app.io	Administrative / Management Interfaces
+service.tech.co	APIs
+drupal-us.cms.org	Marketing / Content / CMS
+mysql-asia.database.co	Database / Data Services
+saml.identity.org	Authentication / Identity
+health.status.io	Monitoring / Logging
+partner.partner.net	Mobile / Partner / Integration
+control.service.co	Administrative / Management Interfaces
+health3.uptime.org	Monitoring / Logging
+kibana-asia.tools.io	Internal Tools / Infrastructure
+uploads.content.com	CDN / Storage / Assets
+redis.storage.net	Database / Data Services
+kibana.tools.io	Internal Tools / Infrastructure
+accounts-eu.sso.co	Authentication / Identity
+media.cdn.co	CDN / Storage / Assets
+images.cdn.co	CDN / Storage / Assets
+checkout-eu.billing.org	Payment / Transactional
+vpn4.internal.com	Internal Tools / Infrastructure
+firewall-test.secure.com	Security Services
+health-dev.metrics.net	Monitoring / Logging
+db-test.database.co	Database / Data Services
+ios.api.org	Mobile / Partner / Integration
+mongo-us.data.com	Database / Data Services
+control-service.service.co	Administrative / Management Interfaces
+git-dev.internal.com	Internal Tools / Infrastructure
+blog3app.content.net	Marketing / Content / CMS
+secure3.secure.com	Security Services
+manage4.example.com	Administrative / Management Interfaces
+checkout1.commerce.com	Payment / Transactional
+metrics.health.co	Monitoring / Logging
+oauth-test.auth.io	Authentication / Identity
+cpanel1.example.com	Administrative / Management Interfaces
+vpn.tools.io	Internal Tools / Infrastructure
+saml-us.sso.co	Authentication / Identity
+about-dev.blog.io	Marketing / Content / CMS
+assets.media.io	CDN / Storage / Assets
+webhook5.app.dev	APIs
+ssl-test.secure.com	Security Services
+jenkins.internal.com	Internal Tools / Infrastructure
+mysql1.db.io	Database / Data Services
+beta1.product.io	Staging / Development / Testing
+ping-test.health.co	Monitoring / Logging
+health2.monitor.com	Monitoring / Logging
+dashboard-east.app.io	Administrative / Management Interfaces
+sandbox-prod.platform.net	Staging / Development / Testing
+service-us.service.io	APIs
+idp4.sso.co	Authentication / Identity
+login.secure.com	Authentication / Identity
+vpn.ssl.co	Security Services
+qa-staging.company.com	Staging / Development / Testing
+checkout-test.billing.org	Payment / Transactional
+build-prod.ops.co	Internal Tools / Infrastructure
+stripe1.payment.co	Payment / Transactional
+build-west.ops.co	Internal Tools / Infrastructure
+uploads-west.assets.net	CDN / Storage / Assets
+auth-west.auth.io	Authentication / Identity
+uptime-asia.status.io	Monitoring / Logging
+ios-east.partner.net	Mobile / Partner / Integration
+ssl-prod.vpn.net	Security Services
+invoice3.store.net	Payment / Transactional
+auth4.secure.com	Authentication / Identity
+build.infra.net	Internal Tools / Infrastructure
+auth-west.secure.com	Authentication / Identity
+test1.company.com	Staging / Development / Testing
+jira.ops.co	Internal Tools / Infrastructure
+dev-east.platform.net	Staging / Development / Testing
+health-service.health.co	Monitoring / Logging
+admin2.service.co	Administrative / Management Interfaces
+pay-east.payment.co	Payment / Transactional
+grafana3.ops.co	Internal Tools / Infrastructure
+qa4.service.dev	Staging / Development / Testing
+console-prod.example.com	Administrative / Management Interfaces
+data.database.co	Database / Data Services
+mobile1.app.io	Mobile / Partner / Integration
+auth2.auth.io	Authentication / Identity
+android-test.integration.co	Mobile / Partner / Integration
+mysql2.analytics.org	Database / Data Services
+dev5.service.dev	Staging / Development / Testing
+cdn-dev.content.com	CDN / Storage / Assets
+blog.content.net	Marketing / Content / CMS
+ping-us.health.co	Monitoring / Logging
+drupal-test.website.com	Marketing / Content / CMS
+partner-eu.api.org	Mobile / Partner / Integration
+files-west.media.io	CDN / Storage / Assets
+git-us.ops.co	Internal Tools / Infrastructure
+preprod5.platform.net	Staging / Development / Testing
+build-dev.tools.io	Internal Tools / Infrastructure
+microservice-asia.platform.com	APIs
+health1.health.co	Monitoring / Logging
+files-dev.content.com	CDN / Storage / Assets
+microservice-test.system.net	APIs
+media1.content.com	CDN / Storage / Assets
+ios-us.integration.co	Mobile / Partner / Integration
+saml.sso.co	Authentication / Identity
+metrics-asia.status.io	Monitoring / Logging
+git-east.tools.io	Internal Tools / Infrastructure
+kibana-staging.infra.net	Internal Tools / Infrastructure
+ping3.uptime.org	Monitoring / Logging
+jenkins-dev.infra.net	Internal Tools / Infrastructure
+preprod4.company.com	Staging / Development / Testing
+redis-app.db.io	Database / Data Services
+deploy1.internal.com	Internal Tools / Infrastructure
+git.devops.org	Internal Tools / Infrastructure
+mongo-dev.data.com	Database / Data Services
+kibana-dev.ops.co	Internal Tools / Infrastructure
+microservice5.tech.co	APIs
+cert.security.io	Security Services
+sandbox-west.service.dev	Staging / Development / Testing
+assets-west.cdn.co	CDN / Storage / Assets
+jira2.internal.com	Internal Tools / Infrastructure
+app-staging.integration.co	Mobile / Partner / Integration
+partner-dev.app.io	Mobile / Partner / Integration
+mongo-staging.storage.net	Database / Data Services
+preprod-east.company.com	Staging / Development / Testing
+checkout.store.net	Payment / Transactional
+manage-test.service.co	Administrative / Management Interfaces
+help.marketing.co	Marketing / Content / CMS
+db1.data.com	Database / Data Services
+security-staging.secure.com	Security Services
+beta.product.io	Staging / Development / Testing
+elastic4.database.co	Database / Data Services
+logs.metrics.net	Monitoring / Logging
+login-test.sso.co	Authentication / Identity
+jira-eu.devops.org	Internal Tools / Infrastructure
+api4.app.dev	APIs
+mysql1.data.com	Database / Data Services
+db-test.data.com	Database / Data Services
+logs1.status.io	Monitoring / Logging
+careers2.website.com	Marketing / Content / CMS
+files-staging.assets.net	CDN / Storage / Assets
+waf.ssl.co	Security Services
+health.metrics.net	Monitoring / Logging
+postgres-test.analytics.org	Database / Data Services
+pay-test.payment.co	Payment / Transactional
+console-eu.site.net	Administrative / Management Interfaces
+dev-staging.app.test	Staging / Development / Testing
+beta-asia.platform.net	Staging / Development / Testing
+service-dev.service.io	APIs
+mongo3.db.io	Database / Data Services
+files3.cdn.co	CDN / Storage / Assets
+mysql-east.data.com	Database / Data Services
+payments-service.store.net	Payment / Transactional
+webhook.app.dev	APIs
+status-prod.uptime.org	Monitoring / Logging
+elastic-west.data.com	Database / Data Services
+kibana1.devops.org	Internal Tools / Infrastructure
+integration-prod.mobile.com	Mobile / Partner / Integration
+ci-prod.infra.net	Internal Tools / Infrastructure
+ci-staging.devops.org	Internal Tools / Infrastructure
+db-west.analytics.org	Database / Data Services
+test3.platform.net	Staging / Development / Testing
+ci-prod.ops.co	Internal Tools / Infrastructure
+elastic-dev.data.com	Database / Data Services
+mobile1service.mobile.com	Mobile / Partner / Integration
+manage-west.site.net	Administrative / Management Interfaces
+idp-west.sso.co	Authentication / Identity
+idp-east.login.net	Authentication / Identity
+login-staging.identity.org	Authentication / Identity
+blog-us.marketing.co	Marketing / Content / CMS
+auth-service.sso.co	Authentication / Identity
+panel-west.company.org	Administrative / Management Interfaces
+elastic-west.storage.net	Database / Data Services
+ssl-us.secure.com	Security Services
+manage.company.org	Administrative / Management Interfaces
+service-test.platform.com	APIs
+partner2.integration.co	Mobile / Partner / Integration
+webhook-prod.system.net	APIs
+service-prod.system.net	APIs
+ci.devops.org	Internal Tools / Infrastructure
+cms4.marketing.co	Marketing / Content / CMS
+static5.media.io	CDN / Storage / Assets
+android-test.api.org	Mobile / Partner / Integration
+vpn4.devops.org	Internal Tools / Infrastructure
+static-staging.assets.net	CDN / Storage / Assets
+service.platform.com	APIs
+images1.assets.net	CDN / Storage / Assets
+android2.integration.co	Mobile / Partner / Integration
+identity5.identity.org	Authentication / Identity
+vpn-prod.ops.co	Internal Tools / Infrastructure
+android-prod.partner.net	Mobile / Partner / Integration
+accounts-west.auth.io	Authentication / Identity
+ping5.monitor.com	Monitoring / Logging
+mobile-east.integration.co	Mobile / Partner / Integration
+grafana-test.devops.org	Internal Tools / Infrastructure
+mobile3.integration.co	Mobile / Partner / Integration
+sql.database.co	Database / Data Services
+ssl.ssl.co	Security Services
+cms.content.net	Marketing / Content / CMS
+uptime.status.io	Monitoring / Logging
+login1.login.net	Authentication / Identity
+identity-east.sso.co	Authentication / Identity
+press.cms.org	Marketing / Content / CMS
+redis.analytics.org	Database / Data Services
+cms-us.website.com	Marketing / Content / CMS
+metrics.monitor.com	Monitoring / Logging
+invoice.commerce.com	Payment / Transactional
+identity.sso.co	Authentication / Identity
+service1.service.io	APIs
+images-api.assets.net	CDN / Storage / Assets
+api2api.service.io	APIs
+webhook4.tech.co	APIs
+drupal2.cms.org	Marketing / Content / CMS
+oauth2.login.net	Authentication / Identity
+css4.content.com	CDN / Storage / Assets
+blog-app.content.net	Marketing / Content / CMS
